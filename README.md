@@ -2,7 +2,7 @@
 
 > **Physics-grounded remaining-useful-life forecasts from OEM documentation. No historical failure data required.**
 
-[kaful.ai](https://kaful.ai) · [LinkedIn](https://www.linkedin.com/in/natalie-buchbinder/)
+[kaful.ai](https://kaful.ai) · [Live demo](https://buchbindern.github.io/kaful-showcase/demo/) · [LinkedIn](https://www.linkedin.com/in/natalie-buchbinder/)
 
 ---
 
@@ -41,6 +41,12 @@ The pipeline runs as an **agentic system** — seven autonomous stages, each fee
 | **Prognose** | Particle filter runs over the model; outputs RUL probability range per component |
 
 The agentic framing is deliberate: the goal is zero manual configuration per machine type. Point Kaful at a new OEM manual and it generates a twin.
+
+## Try it
+
+**[Interactive demo — Atlas Copco GA90C air compressor](https://buchbindern.github.io/kaful-showcase/demo/)**
+
+Enter operating parameters (hours per day, load, environment) and generate a component-level RUL forecast. The demo runs your inputs through the same pipeline logic that produced the results below.
 
 ## Demo — Atlas Copco GA90C Air Compressor
 
@@ -100,7 +106,6 @@ Poster: *Physics-grounded prognostic digital twins from OEM documentation.*
 ## Further reading
 
 - [Technical approach](docs/technical-approach.md) — pipeline design decisions, why particle filters, why physics-first
-- [Customer discovery](docs/customer-discovery.md) — who we talked to and what changed
 - [Product notes](docs/product-notes.md) — what Kaful is, who it's for, where it's going
 - [Sample data schema](demo/sample-data-schema.md) — input/output format
 
