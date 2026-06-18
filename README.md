@@ -2,7 +2,7 @@
 
 > **Physics-grounded remaining-useful-life forecasts from OEM documentation. No historical failure data required.**
 
-[kaful.ai](https://kaful.ai) · [Live demo](https://buchbindern.github.io/kaful-showcase/demo/) · [LinkedIn](https://www.linkedin.com/in/natalie-buchbinder/)
+[kaful.ai](https://kaful.ai) · [Live demo](https://buchbindern.github.io/kaful-showcase/) · [LinkedIn](https://www.linkedin.com/in/natalie-buchbinder/)
 
 ---
 
@@ -44,7 +44,7 @@ The agentic framing is deliberate: the goal is zero manual configuration per mac
 
 ## Try it
 
-**[Interactive demo — Atlas Copco GA90C air compressor](https://buchbindern.github.io/kaful-showcase/demo/)**
+**[Interactive demo — Atlas Copco GA90C air compressor](https://buchbindern.github.io/kaful-showcase/)**
 
 Enter operating parameters (hours per day, load, environment) and generate a component-level RUL forecast. The demo runs your inputs through the same pipeline logic that produced the results below.
 
